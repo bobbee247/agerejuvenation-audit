@@ -182,7 +182,7 @@ export default function AgeRejuvenationAudit() {
             <span style={{ color: COLORS.gray, fontSize: 13, textTransform: "uppercase", letterSpacing: 2, fontFamily: "'DM Sans', sans-serif" }}>Organic Growth Report</span>
           </div>
           <h1 style={{ fontSize: "clamp(36px, 5vw, 64px)", fontWeight: 800, fontFamily: "'Outfit', sans-serif", lineHeight: 1.05, marginBottom: 20, background: `linear-gradient(135deg, ${COLORS.white} 0%, ${COLORS.grayLight} 100%)`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", maxWidth: 700 }}>6-Month Organic Growth Audit</h1>
-          <p style={{ fontSize: 18, color: COLORS.gray, fontFamily: "'DM Sans', sans-serif", maxWidth: 540, lineHeight: 1.6, marginBottom: 40 }}>Performance insights across all five Florida clinics.<br /><span style={{ color: COLORS.teal }}>October 2025 \u2014 March 2026</span></p>
+          <p style={{ fontSize: 18, color: COLORS.gray, fontFamily: "'DM Sans', sans-serif", maxWidth: 540, lineHeight: 1.6, marginBottom: 40 }}>Performance insights across all five Florida clinics.<br /><span style={{ color: COLORS.teal }}>October 2025 — March 2026</span></p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>
             {[{ label: "GBP Interactions", value: "14,583" }, { label: "Organic Sessions", value: "14,905" }, { label: "Engagement Rate", value: "64.9%" }, { label: "Phone Calls", value: "2,658" }].map((s, i) => (
               <div key={i} style={{ background: `${COLORS.teal}10`, border: `1px solid ${COLORS.teal}25`, borderRadius: 12, padding: "14px 22px", display: "flex", flexDirection: "column", gap: 2 }}>
@@ -198,8 +198,8 @@ export default function AgeRejuvenationAudit() {
         <div style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${COLORS.teal}08 100%)`, borderRadius: 16, padding: "32px 28px", marginBottom: 60, border: `1px solid ${COLORS.teal}20`, display: "flex", alignItems: "center", gap: 24, flexWrap: "wrap" }}>
           <div style={{ width: 56, height: 56, borderRadius: 16, background: `linear-gradient(135deg, ${COLORS.teal}, ${COLORS.tealLight})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28, flexShrink: 0 }}>\ud83d\ude80</div>
           <div style={{ flex: 1, minWidth: 260 }}>
-            <div style={{ fontSize: 20, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif", marginBottom: 4 }}>New Website Launched \u2014 September 2025</div>
-            <div style={{ fontSize: 14, color: COLORS.gray, lineHeight: 1.6 }}>This report covers the first 6 months since the new AgeRejuvenation website went live. All organic metrics reflect early-stage growth on a fresh domain presence \u2014 making these results an impressive foundation to build on.</div>
+            <div style={{ fontSize: 20, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif", marginBottom: 4 }}>New Website Launched — September 2025</div>
+            <div style={{ fontSize: 14, color: COLORS.gray, lineHeight: 1.6 }}>This report covers the first 6 months since the new AgeRejuvenation website went live. All organic metrics reflect early-stage growth on a fresh domain presence — making these results an impressive foundation to build on.</div>
           </div>
           <div style={{ background: `${COLORS.teal}15`, borderRadius: 12, padding: "12px 20px", textAlign: "center", flexShrink: 0 }}>
             <div style={{ fontSize: 28, fontWeight: 800, color: COLORS.teal, fontFamily: "'Outfit', sans-serif" }}>6</div>
@@ -209,9 +209,9 @@ export default function AgeRejuvenationAudit() {
 
         <SectionTitle subtitle="Key highlights from the first 6 months since website launch">Top 3 Wins</SectionTitle>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 20, marginBottom: 80 }}>
-          <WinCard number="1" title="14,583 GBP Interactions" description="Across all 5 clinics, nearly 15K people engaged with your Google Business Profiles \u2014 requesting directions, calling, and clicking through to your website. That\u2019s an average of ~2,430 high-intent actions per month." color={COLORS.teal} />
-          <WinCard number="2" title="64.9% Organic Engagement Rate" description="Nearly two-thirds of organic visitors actively engage with your site \u2014 well above the healthcare industry benchmark of ~55%. This signals high-quality traffic that finds your content relevant and valuable." color={COLORS.gold} />
-          <WinCard number="3" title="Organic Traffic Resilient to AI Overviews" description="Despite industry-wide organic click declines of 42% due to AI Overviews, AgeRejuvenation\u2019s organic sessions remain stable and rebounding \u2014 averaging ~2,480/month with a strong Q1 2026 recovery." color={COLORS.purple} />
+          <WinCard number="1" title="14,583 GBP Interactions" description="Across all 5 clinics, nearly 15K people engaged with your Google Business Profiles — requesting directions, calling, and clicking through to your website. That\u2019s an average of ~2,430 high-intent actions per month." color={COLORS.teal} />
+          <WinCard number="2" title="64.9% Organic Engagement Rate" description="Nearly two-thirds of organic visitors actively engage with your site — well above the healthcare industry benchmark of ~55%. This signals high-quality traffic that finds your content relevant and valuable." color={COLORS.gold} />
+          <WinCard number="3" title="Organic Traffic Resilient to AI Overviews" description="Despite industry-wide organic click declines of 42% due to AI Overviews, AgeRejuvenation\u2019s organic sessions remain stable and rebounding — averaging ~2,480/month with a strong Q1 2026 recovery." color={COLORS.purple} />
         </div>
 
         <SectionTitle subtitle="Google Business Profile interactions, calls, directions, and website clicks per location">GBP Performance by Clinic</SectionTitle>
@@ -274,10 +274,10 @@ export default function AgeRejuvenationAudit() {
           <div style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${COLORS.navyMid} 100%)`, borderRadius: 16, padding: 32, border: `1px solid rgba(0,201,167,0.1)` }}>
             <div style={{ fontSize: 14, color: COLORS.gray, marginBottom: 20 }}>Clinic Spotlights</div>
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              {[{ clinic: "Brandon", stat: "4,523 interactions", detail: "Top performer \u2014 leading in direction requests with 3,109 visits", color: COLORS.teal }, { clinic: "Wesley Chapel", stat: "1,341 website clicks", detail: "Highest digital engagement rate of any clinic", color: COLORS.purple }, { clinic: "South Tampa", stat: "34.7% call rate", detail: "Best call conversion rate \u2014 631 calls from 1,818 interactions", color: COLORS.gold }, { clinic: "Winter Garden", stat: "3,039 directions", detail: "Strong foot-traffic intent \u2014 second only to Brandon", color: COLORS.coral }].map((s, i) => (
+              {[{ clinic: "Brandon", stat: "4,523 interactions", detail: "Top performer — leading in direction requests with 3,109 visits", color: COLORS.teal }, { clinic: "Wesley Chapel", stat: "1,341 website clicks", detail: "Highest digital engagement rate of any clinic", color: COLORS.purple }, { clinic: "South Tampa", stat: "34.7% call rate", detail: "Best call conversion rate — 631 calls from 1,818 interactions", color: COLORS.gold }, { clinic: "Winter Garden", stat: "3,039 directions", detail: "Strong foot-traffic intent — second only to Brandon", color: COLORS.coral }].map((s, i) => (
                 <div key={i} style={{ display: "flex", alignItems: "flex-start", gap: 12, padding: "12px 16px", borderRadius: 10, background: `${s.color}08`, border: `1px solid ${s.color}15` }}>
                   <div style={{ width: 36, height: 36, borderRadius: 10, background: `${s.color}20`, display: "flex", alignItems: "center", justifyContent: "center", color: s.color, fontWeight: 800, fontSize: 14, fontFamily: "'Outfit', sans-serif", flexShrink: 0 }}>{i + 1}</div>
-                  <div><div style={{ fontSize: 14, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif" }}>{s.clinic} \u2014 {s.stat}</div><div style={{ fontSize: 12, color: COLORS.gray, marginTop: 2 }}>{s.detail}</div></div>
+                  <div><div style={{ fontSize: 14, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif" }}>{s.clinic} — {s.stat}</div><div style={{ fontSize: 12, color: COLORS.gray, marginTop: 2 }}>{s.detail}</div></div>
                 </div>))}
             </div>
           </div>
@@ -308,10 +308,10 @@ export default function AgeRejuvenationAudit() {
               <Area type="monotone" dataKey="sessions" name="Sessions" stroke={COLORS.teal} strokeWidth={3} fill="url(#tealGradient)" dot={{ r: 6, fill: COLORS.teal, stroke: COLORS.navyLight, strokeWidth: 3 }} activeDot={{ r: 8, fill: COLORS.tealLight }} />
             </AreaChart>
           </ResponsiveContainer>
-          <InsightBox text="Organic traffic shows a strong, stable foundation averaging ~2,480 sessions/month. After a natural seasonal dip in Dec\u2013Feb, March 2026 shows a healthy rebound to 2,496 \u2014 building momentum heading into Q2 despite industry-wide declines from AI Overviews." />
+          <InsightBox text="Organic traffic shows a strong, stable foundation averaging ~2,480 sessions/month. After a natural seasonal dip in Dec\u2013Feb, March 2026 shows a healthy rebound to 2,496 — building momentum heading into Q2 despite industry-wide declines from AI Overviews." />
         </div>
         <div style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${COLORS.navyMid} 100%)`, borderRadius: 16, padding: 32, border: `1px solid rgba(0,201,167,0.1)`, marginBottom: 80 }}>
-          <div style={{ fontSize: 14, color: COLORS.gray, marginBottom: 24 }}>Engagement Quality \u2014 Your Traffic vs. Industry Benchmarks</div>
+          <div style={{ fontSize: 14, color: COLORS.gray, marginBottom: 24 }}>Engagement Quality — Your Traffic vs. Industry Benchmarks</div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 20 }}>
             {[{ metric: "Engagement Rate", yours: "64.9%", benchmark: "~55%", delta: "+18%", color: COLORS.teal, pct: 65 }, { metric: "Avg. Session Duration", yours: "1m 02s", benchmark: "~45s", delta: "+38%", color: COLORS.gold, pct: 72 }, { metric: "Events per Session", yours: "6.90", benchmark: "~4.5", delta: "+53%", color: COLORS.purple, pct: 80 }].map((m, i) => (
               <div key={i} style={{ padding: 20, borderRadius: 12, background: `${m.color}06`, border: `1px solid ${m.color}15` }}>
@@ -324,9 +324,9 @@ export default function AgeRejuvenationAudit() {
                 <div style={{ display: "flex", justifyContent: "space-between", marginTop: 6 }}><span style={{ fontSize: 11, color: COLORS.gray }}>Healthcare avg: {m.benchmark}</span><span style={{ fontSize: 11, color: m.color, fontWeight: 600 }}>You</span></div>
               </div>))}
           </div>
-          <InsightBox text="AgeRejuvenation\u2019s organic traffic quality outperforms healthcare industry benchmarks across every engagement metric. Visitors aren\u2019t just landing on the site \u2014 they\u2019re actively exploring content, booking appointments, and spending meaningful time on pages." color={COLORS.gold} />
+          <InsightBox text="AgeRejuvenation\u2019s organic traffic quality outperforms healthcare industry benchmarks across every engagement metric. Visitors aren\u2019t just landing on the site — they\u2019re actively exploring content, booking appointments, and spending meaningful time on pages." color={COLORS.gold} />
         </div>
-        <SectionTitle subtitle="How Google\u2019s AI Overviews have impacted organic search industry-wide \u2014 and why AgeRejuvenation\u2019s stability is a win">The AI Overviews Factor</SectionTitle>
+        <SectionTitle subtitle="How Google\u2019s AI Overviews have impacted organic search industry-wide — and why AgeRejuvenation\u2019s stability is a win">The AI Overviews Factor</SectionTitle>
         <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1fr", gap: 20, marginBottom: 32 }}>
           <div style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${COLORS.navyMid} 100%)`, borderRadius: 16, padding: 32, border: `1px solid rgba(0,201,167,0.1)` }}>
             <div style={{ fontSize: 14, color: COLORS.gray, marginBottom: 20 }}>AI Overviews Prevalence in Google Search</div>
@@ -344,10 +344,10 @@ export default function AgeRejuvenationAudit() {
           </div>
           <div style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${COLORS.navyMid} 100%)`, borderRadius: 16, padding: 32, border: `1px solid rgba(0,201,167,0.1)` }}>
             <div style={{ fontSize: 14, color: COLORS.gray, marginBottom: 20 }}>Industry Impact Timeline</div>
-            <MilestoneMarker label="June 2025 \u2014 AIO Hits 40%" sublabel="AI Overviews appear in 40%+ of Google queries, displacing organic clicks" color={COLORS.gold} />
-            <MilestoneMarker label="Sep 2025 \u2014 Website Launch" sublabel="AgeRejuvenation\u2019s new site goes live during peak AI disruption" color={COLORS.teal} />
-            <MilestoneMarker label="Q4 2025 \u2014 42% Click Decline" sublabel="Industry reports cumulative 42% drop in organic clicks due to AIO" color={COLORS.coral} />
-            <MilestoneMarker label="Mar 2026 \u2014 48% AIO Coverage" sublabel="Nearly half of all Google queries now feature AI Overviews" color={COLORS.purple} />
+            <MilestoneMarker label="June 2025 — AIO Hits 40%" sublabel="AI Overviews appear in 40%+ of Google queries, displacing organic clicks" color={COLORS.gold} />
+            <MilestoneMarker label="Sep 2025 — Website Launch" sublabel="AgeRejuvenation\u2019s new site goes live during peak AI disruption" color={COLORS.teal} />
+            <MilestoneMarker label="Q4 2025 — 42% Click Decline" sublabel="Industry reports cumulative 42% drop in organic clicks due to AIO" color={COLORS.coral} />
+            <MilestoneMarker label="Mar 2026 — 48% AIO Coverage" sublabel="Nearly half of all Google queries now feature AI Overviews" color={COLORS.purple} />
             <div style={{ marginTop: 16, padding: "14px 16px", borderRadius: 10, background: `${COLORS.teal}10`, border: `1px solid ${COLORS.teal}20` }}>
               <div style={{ fontSize: 13, color: COLORS.teal, fontWeight: 600 }}>Despite all this \u2192 AgeRejuvenation\u2019s organic traffic remains stable</div>
             </div>
@@ -358,7 +358,7 @@ export default function AgeRejuvenationAudit() {
             <div style={{ width: 48, height: 48, borderRadius: 12, background: `${COLORS.coral}15`, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, fontSize: 22 }}>\u26a1</div>
             <div style={{ flex: 1, minWidth: 300 }}>
               <div style={{ fontSize: 18, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif", marginBottom: 6 }}>Why \u201cStable\u201d Is the New \u201cGrowing\u201d</div>
-              <div style={{ fontSize: 14, color: COLORS.gray, lineHeight: 1.7 }}>In a landscape where the average website has lost 42% of its organic clicks to AI Overviews, maintaining steady organic traffic is a significant achievement. AgeRejuvenation\u2019s consistent ~2,480 sessions/month \u2014 with a March rebound \u2014 demonstrates that the SEO foundation is resilient and well-positioned to capture growth as strategies continue to evolve.</div>
+              <div style={{ fontSize: 14, color: COLORS.gray, lineHeight: 1.7 }}>In a landscape where the average website has lost 42% of its organic clicks to AI Overviews, maintaining steady organic traffic is a significant achievement. AgeRejuvenation\u2019s consistent ~2,480 sessions/month — with a March rebound — demonstrates that the SEO foundation is resilient and well-positioned to capture growth as strategies continue to evolve.</div>
             </div>
           </div>
         </div>
@@ -386,7 +386,7 @@ export default function AgeRejuvenationAudit() {
 
         <SectionTitle subtitle="Strategic recommendations for the next quarter to build on this strong foundation">Looking Ahead: Q2 2026</SectionTitle>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 20, marginBottom: 80 }}>
-          {[{ title: "Double Down on High-Engagement Content", desc: "With 64.9% engagement rate and 6.9 events per session, organic visitors are highly engaged. Creating more service-specific landing pages and blog content will compound this quality traffic.", color: COLORS.teal }, { title: "Expand Local Content Strategy", desc: "Each clinic location page performs well in local search. Adding service-specific location pages (e.g., 'Peptide Therapy in Wesley Chapel') can capture more granular, high-intent searches.", color: COLORS.gold }, { title: "Optimize for AI Overview Visibility", desc: "As AI Overviews dominate more searches, structuring content for featured snippets and FAQ schemas will help AgeRejuvenation appear within AI-generated responses \u2014 turning the AIO shift into an advantage.", color: COLORS.purple }, { title: "Build on GBP Momentum", desc: "Brandon and Winter Garden lead in GBP interactions. Regular posts, photos, Q&A, and review responses across all profiles will maintain and grow this high-intent engagement.", color: COLORS.coral }].map((r, i) => (
+          {[{ title: "Double Down on High-Engagement Content", desc: "With 64.9% engagement rate and 6.9 events per session, organic visitors are highly engaged. Creating more service-specific landing pages and blog content will compound this quality traffic.", color: COLORS.teal }, { title: "Expand Local Content Strategy", desc: "Each clinic location page performs well in local search. Adding service-specific location pages (e.g., 'Peptide Therapy in Wesley Chapel') can capture more granular, high-intent searches.", color: COLORS.gold }, { title: "Optimize for AI Overview Visibility", desc: "As AI Overviews dominate more searches, structuring content for featured snippets and FAQ schemas will help AgeRejuvenation appear within AI-generated responses — turning the AIO shift into an advantage.", color: COLORS.purple }, { title: "Build on GBP Momentum", desc: "Brandon and Winter Garden lead in GBP interactions. Regular posts, photos, Q&A, and review responses across all profiles will maintain and grow this high-intent engagement.", color: COLORS.coral }].map((r, i) => (
             <div key={i} style={{ background: `linear-gradient(135deg, ${COLORS.navyLight} 0%, ${r.color}08 100%)`, borderRadius: 16, padding: "28px 24px", border: `1px solid ${r.color}20`, borderLeft: `3px solid ${r.color}` }}>
               <div style={{ fontSize: 18, fontWeight: 700, color: COLORS.white, fontFamily: "'Outfit', sans-serif", marginBottom: 10 }}>{r.title}</div>
               <div style={{ fontSize: 14, color: COLORS.gray, lineHeight: 1.6 }}>{r.desc}</div>
@@ -396,7 +396,7 @@ export default function AgeRejuvenationAudit() {
         <div style={{ borderTop: `1px solid ${COLORS.gray}15`, paddingTop: 40, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
             <img src="https://onecdn.io/media/d428a0e1-4ae7-4092-98c5-20d08a038c59/md2x" alt="AgeRejuvenation" style={{ height: 32, objectFit: "contain", opacity: 0.7 }} />
-            <span style={{ color: COLORS.gray, fontSize: 13 }}>Organic Growth Audit \u2014 Oct 2025 to Mar 2026</span>
+            <span style={{ color: COLORS.gray, fontSize: 13 }}>Organic Growth Audit — Oct 2025 to Mar 2026</span>
           </div>
           <div style={{ color: COLORS.gray, fontSize: 12 }}>Data sourced from Google Business Profile & Google Analytics 4</div>
         </div>
